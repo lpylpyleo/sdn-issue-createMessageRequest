@@ -1,0 +1,26 @@
+@import 'app/variables.module';
+
+.base {
+  padding: 7px;
+  border-radius: 20px;
+  background-color: $metale-yellow;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.coin {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  &__price {
+    margin-left: 3px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  &:last-child {
+    margin-left: 7px;
+  }
+}

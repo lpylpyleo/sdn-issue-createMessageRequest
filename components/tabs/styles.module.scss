@@ -1,0 +1,21 @@
+.base {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.tab {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  padding-left: 5px;
+  padding-top: 3px;
+  color: #9ea3ae;
+}
+
+.active {
+  color: black;
+  background-image: url('../../public/images/tab-active.webp');
+  background-position: left bottom;
+  background-size: 28px 20px;
+  background-repeat: no-repeat;
+}
